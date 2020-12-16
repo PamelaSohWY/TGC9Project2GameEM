@@ -1,0 +1,18 @@
+"sessions":[
+{"_id":{"$oid":"5fc753c541d0a3bf658b071c"},
+"Name":"Abigail Anderson",
+"Session Id attempted":"1" 
+"Answers":"3,correct", "7,correct", "11, correct"},
+
+{"_id":{"$oid":"5fc753c541d0a3bf658b072c"},
+"Name":"Ben Butter",
+"Session Id attempted":"2" 
+"Answers":"5,correct", "8,wrong", "11,correct"}, 
+
+ {"_id":{"$oid":"5fc753c541d0a3bf658b072c"},
+"Name":"Clara Class",
+"Session Id attempted":"3" 
+"Answers":"9,correct", "8,correct", "5,wrong"}
+]
+
+//Data to be collect each round.

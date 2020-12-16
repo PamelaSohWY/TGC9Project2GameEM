@@ -1,0 +1,21 @@
+"users":[
+{"_id":{"$oid":"5fc753c541d0a3bf658b071c"},
+"Name":"Abigail Anderson",
+"Gender":"Female", 
+"DOB":"01-01-2014",7
+"Date Enrolled":"15-06-2020", 
+"Teacher":"Ms Mary Lee"},
+{"_id":{"$oid":"5fc753c541d0a3bf658b072c"},
+"Name":"Ben Butter",
+"Gender":"Male",
+"DOB":"02-01-2014",
+"Date Enrolled":"15-06-2020", 
+"Teacher":"Ms Mabel Low"},
+{"_id":{"$oid":"5fc753c541d0a3bf658b073c"},
+"Name":"Clara Class",
+"Gender":"Female",
+"DOB":"03-01-2014",
+"Date Enrolled":"15-06-2020", 
+"Teacher":"Mr Mathew Li"},
+]
+
