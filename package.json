@@ -1,0 +1,25 @@
+{
+  "name": "tgc9project2gameem",
+  "version": "1.0.0",
+  "description": "<img src=\"https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png\" style=\"margin: 0;\">",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PamelaSohWY/TGC9Project2GameEM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PamelaSohWY/TGC9Project2GameEM/issues"
+  },
+  "homepage": "https://github.com/PamelaSohWY/TGC9Project2GameEM#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongodb": "^3.6.3",
+    "wax-on": "^1.2.2"
+  }
+}
