@@ -1,4 +1,4 @@
-const UserModel = require ('../models/userModel')
+const UserModel = require ('../models/UserModel')
 const passport = require ('passport');
 const LocalStrategy = require('passport-local');
 const bcrypt = require ('bcryptjs')
@@ -18,7 +18,7 @@ passport.use(
     }, async function(email, password, done){
 
         let user = await UserModel.findUserByEmail(email);
-        if (user&&bcrypt.compareSync(password, user.password)){
+        if (user && bcrypt.compareSync(password, user.password)){
             console.log("user logged in successfully in passport")
             done(null, user);
         } else {
@@ -29,7 +29,4 @@ passport.use(
         })
 )
 
-    })
-
-)
-)
+   module.exports = passport;
